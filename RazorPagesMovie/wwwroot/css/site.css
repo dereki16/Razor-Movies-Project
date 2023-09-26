@@ -1,11 +1,11 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 /*.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -13,12 +13,12 @@ html {
 }*/
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 
@@ -26,6 +26,26 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.navbar-nav, .navbar-nav-2 {
+    width: 100%;
+    background-color: red;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+#form {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.navbar {
+    padding: 10px;
 }
 
 .movie {
@@ -39,9 +59,9 @@ body {
 .movie-container {
     background-color: black;
     color: white;
-/*    width: 25%;
+    /*    width: 25%;
     height: 100%;*/
-/*    display: grid;
+    /*    display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 5%;*/
 }
@@ -51,25 +71,24 @@ body {
     text-align: center;
 }
 
-.movie-card span {
-    padding: 0.25rem 0.5rem;
-    border-radius: 3px;
-    font-weight: bold;
-    font-size: 25px;
+    .movie-card span {
+        padding: 0.25rem 0.5rem;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 25px;
+    }
 
-}
+        .movie-card span.green {
+            color: lightgreen;
+        }
 
-.movie-card span.green {
-    color: lightgreen;
-}
+        .movie-card span.orange {
+            color: orange;
+        }
 
-.movie-card span.orange {
-    color: orange;
-}
-
-.movie-card span.red {
-    color: red;
-}
+        .movie-card span.red {
+            color: red;
+        }
 
 .title-card {
     background-color: #3b3b3b;
